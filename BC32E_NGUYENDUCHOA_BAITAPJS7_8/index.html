@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container pt-5">
+        <div class="p-2">
+            <div class="form-group">
+                <input class="form-control w-25" id="nhapSo" type="number" placeholder="Nhập số n">
+                <br />
+                <button class="btn btn-primary" id="btnThemSo">Thêm Số</button>
+            </div>
+            <div class="alert alert-success" id="ketQua">
+                👉
+            </div>
+        </div>
+        <div class="p-2">
+            <h3>Bài 1: Tổng số dương</h3>
+            <button class="btn btn-primary" id="btnTinhTong">Tính Tổng</button>
+            <div class="alert alert-success mt-2" id="ketQuaBai1">
+                👉
+            </div>
+        </div>
+        <div class="p-2">
+            <h3>Bài 2: Đếm số dương</h3>
+            <button class="btn btn-primary" id="btnDemSo">Đếm Số</button>
+            <div class="alert alert-success mt-2" id="ketQuaBai2">
+                👉
+            </div>
+        </div>
+        <div class="p-2">
+            <h3>Bài 3: Tìm số nhỏ nhất</h3>
+            <button class="btn btn-primary" id="btnTimSoNhoNhat">Tìm Số Nhỏ Nhất</button>
+            <div class="alert alert-success mt-2" id="ketQuaBai3">
+                👉
+            </div>
+        </div>
+        <div class="p-2">
+            <h3>Bài 4: Tìm dương số nhỏ nhất</h3>
+            <button class="btn btn-primary" id="btnTimSoDuongNhoNhat">Tìm Số Dương Nhỏ Nhất</button>
+            <div class="alert alert-success mt-2" id="ketQuaBai4">
+                👉
+            </div>
+        </div>
+        <div class="p-2">
+            <h3>Bài 5: Tìm số chẵn cuối cùng</h3>
+            <button class="btn btn-primary" id="btnTimSoChanCuoiCung">Tìm Số Chẵn Cuối Cùng</button>
+            <div class="alert alert-success mt-2" id="ketQuaBai5">
+                👉
+            </div>
+        </div>
+        <div class="p-2">
+            <h3>Bài 6: Đổi chỗ</h3>
+            <div class="form-group">
+                <input class="form-control w-25" id="nhapSo_1" placeholder="Nhập số vị trí 1" />
+                <br />
+                <input class="form-control w-25" id="nhapSo_2" placeholder="Nhập số vị trí 2" />
+            </div>
+            <button class="btn btn-primary" id="btnDoiCho">Đổi Chỗ</button>
+            <div class="alert alert-success mt-2" id="ketQuaBai6">
+                👉
+            </div>
+        </div>
+        <div class="p-2">
+            <h3>Bài 7: Sắp xếp tăng dần</h3>
+            <button class="btn btn-primary" id="btnSapXep">Sắp Xếp</button>
+            <div class="alert alert-success mt-2" id="ketQuaBai7">
+                👉
+            </div>
+        </div>
+        <div class="p-2">
+            <h3>Bài 8: Tìm số nguyên tố đầu tiên</h3>
+            <button class="btn btn-primary" id="btnTimSoNguyenTo">Tìm Số Nguyên Tố</button>
+            <div class="alert alert-success mt-2" id="ketQuaBai8">
+                👉
+            </div>
+        </div>
+        <div class="p-2">
+            <h3>Bài 9: Đếm số nguyên</h3>
+            <div class="form-group">
+                <input class="form-control w-25" id="nhapSo_3" type="number" placeholder="Nhập số n">
+                <br />
+                <button class="btn btn-primary" id="btnThemSo2">Thêm Số</button>
+            </div>
+            <div class="alert alert-success" id="ketQua2">
+                👉
+            </div>
+            <button class="btn btn-primary p-2" id="btnDemSoNguyen">Đếm Số Nguyên</button>
+            <div class="alert alert-success mt-2" id="ketQuaBai9">
+                👉
+            </div>
+        </div>
+        <div class="p-2">
+            <h3>Bài 10: So sánh số lượng số âm và dương</h3>
+            <button class="btn btn-primary" id="btnSoSanh">So Sánh</button>
+            <div class="alert alert-success mt-2" id="ketQuaBai10">
+                👉
+            </div>
+        </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="./main.js"></script>
+</body>
+
+</html>
